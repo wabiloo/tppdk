@@ -1,0 +1,13 @@
+#flSubtitleSelectCard .subtitleList {
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+}
+
+#flSubtitleSelectCard .subtitleListOption {
+	padding-left: 25px;
+	margin-bottom: 6px;
+}
+#flSubtitleSelectCard .subtitleListOption:before {
+	content: "> ";
+}
